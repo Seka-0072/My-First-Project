@@ -1,0 +1,69 @@
+body, html {
+  background: #e6e8fa;
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  font-family: coursive; }
+
+body {
+  margin: 0px;
+  padding: 0px; }
+  body .container img {
+    background-image: url("images/QU Deck.jpg"), no-repeat;
+    background-attachment: fixed;
+    background-size: auto; }
+
+.navbar {
+  box-shadow: 0 3px 6px;
+  border-radius: 10px;
+  background-color: #F5F5F5;
+  line-height: 80px; }
+  .navbar img {
+    width: 100px;
+    float: left;
+    border-radius: 52px; }
+
+.navbar-collapse {
+  display: inline-block;
+  color: black;
+  margin-left: 100px;
+  font-size: 1.5em;
+  padding-top: 21px; }
+  .navbar-collapse .navbar-nav .main {
+    display: none; }
+  .navbar-collapse .navbar-nav li {
+    margin-left: 5px; }
+    .navbar-collapse .navbar-nav li a {
+      color: #D8BFD8;
+      background: #696969;
+      border-radius: 5px; }
+      .navbar-collapse .navbar-nav li a:hover {
+        background: #19c;
+        color: #fff;
+        cursor: pointer;
+        -webkit-transition: background-color 1s ease-out;
+        -moz-transition: background-color 1s ease-out;
+        -o-transition: background-color 1s ease-out;
+        transition: background-color s ease-out; }
+  .navbar-collapse .login a {
+    padding-bottom: 11px;
+    margin-left: 250px; }
+    @media screen and (max-width: 768px) {
+      .navbar-collapse .login a {
+        margin-left: 0px; } }
+
+footer {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 60px;
+  background: #808080;
+  margin-bottom: 5px; }
+  footer li {
+    float: left;
+    padding: 10px 0 0 30px;
+    color: white; }
+    footer li:hover {
+      color: black; }
+
+/*# sourceMappingURL=style.css.map */
